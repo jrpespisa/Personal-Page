@@ -1,0 +1,145 @@
+/* Title */
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 0;
+  background-color: lightgrey;
+  font-family: Gill Sans Extrabold; sans-serif;
+  text-shadow: 2px 2px #9b9b9b;
+}
+
+h2 {
+  text-align: center;
+  margin: 2em auto 0
+}
+
+
+/* Links */
+
+.navbar {
+  margin-top: -2em;
+  background-color: #eee;
+  padding: 0.1rem 0;
+  box-shadow: 1px 1px 1px lightgrey;
+}
+
+.navbar ul {
+  text-align: center;
+  padding: 0 1em;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+a:link {
+  color: darkgrey;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+}
+a:hover {
+  color: darkgrey;
+}
+a:active {
+  color: black;
+}
+
+h3,
+.email,
+.github,
+.treehouse {
+  margin-left: 3em;
+  line-height: 1.75;
+  list-style: none;
+}
+
+
+/* Body */
+
+.p {
+  background-color: #eee;
+  padding: 1em;
+  box-shadow: 2px 2px 1px lightgrey;
+  border-radius: 5px;
+}
+
+.body-about,
+.body-about2 {
+  margin: 3em auto;
+  text-align: left;
+  max-width: 60%;
+  text-indent: 1.5em;
+}
+
+.FordGT,
+.Mountain {
+  display: block;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.cap1,
+.cap2 {
+  text-align:center;
+  font-size: 14px;
+  margin: -2em 0 0 0;
+  padding-bottom: 1em;
+}
+
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: lightgrey;
+}
+
+.contact-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 2em 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 760px) {
+  .body-about,
+  .body-about2,
+  .FordGT,
+  .Mountain {
+    max-width: 75%;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .body-about,
+  .body-about2   {
+    max-width: 90%;
+    margin: 3em 0 0 1em;
+    text-align: left;
+  }
+
+  h3,
+  .email,
+  .github,
+  .treehouse {
+    margin-left: 1em;
+    line-height: 1.75;
+    list-style: none;
+  }
+}
